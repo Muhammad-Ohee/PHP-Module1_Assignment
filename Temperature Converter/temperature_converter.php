@@ -12,7 +12,7 @@
     </head>
     </head>
     <body>
-    <div class = "container">
+        <div class = "container">
             <h2>Temperature Converter</h2>
             <form method = "post" action = "">
 
@@ -43,10 +43,10 @@
                                 $formatted = round($result, 2);
                                 echo "$number&deg Fahrenheit = $formatted&deg Celsius";
                                 break;
+                            }
                         }
-                    }
-                ?>
+                    ?>
+                </div>
             </div>
-        </div>
     </body>
 </html>
